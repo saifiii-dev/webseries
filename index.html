@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Web Series Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        .hover-effect:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+        .scrolling-effect {
+            overflow-y: auto;
+            max-height: 80vh;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+        }
+        .scrolling-effect::-webkit-scrollbar {
+            width: 8px;
+        }
+        .scrolling-effect::-webkit-scrollbar-thumb {
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 4px;
+        }
+        .header-transparent {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-roboto">
+    <header class="header-transparent p-4 flex justify-between items-center">
+        <h1 class="text-3xl font-bold text-red-600">Web Series</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a class="hover:text-gray-400" href="#">Home</a></li>
+                <li><a class="hover:text-gray-400" href="#" onclick="alert('No Series Available.');">Series</a></li>
+                <li><a class="hover:text-gray-400" href="#">Movies</a></li>
+                <li><a class="hover:text-gray-400" href="#">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="p-4 scrolling-effect">
+        <section class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series PUSHPA 2" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/15P0fFCDWep5Z0OOCJGzgeEO5QgT9T0MOopO6VTPXnrJdmDoA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6818-pushpa-2-the-rule.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">PUSHPA 2</h2>
+                </a>
+                <p class="text-sm text-gray-400">Drama, Thriller</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series MARTIN" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/96YPnLFx5naEEFsRfIJPDdD2ceYp1aKgRm5eaeqrM2NO5MHQB.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6573-martin.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">MARTIN</h2>
+                </a>
+            
+                <p class="text-sm text-gray-400">Sci-Fi, Adventure</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series TERE BATO ME AISA ULJHA JIYA" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/e4EF06diquSpbShO0Pv8gWGkqlVtlP9ttpOem4ODU2PiOzBUA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/5218-teri-baaton-mein-aisa-uljha-jiya.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">TERE BATO ME AISA ULJHA JIYA</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Romance, Drama</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series THE EXCORSIST" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/gbuf8pys9uye0U5nlzrueWCMlWIikciEBUkqhJXvOL6TcmDoA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/4544-the-exorcist-believer.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">THE EXORCIST</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Horror, Thriller</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series THE SOUL EATER" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/O0Vo45WMoB5wIxldfIzNXefYpXGUQeFLlJ9URBixv8eHwZOgC.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6792-the-soul-eater.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">THE SOUL EATER</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Fantasy, Adventure</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series THE CROW" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/e7f0CqxBycr0wkJNaVVferl4DYXxJjJXRMNp5g75xYnl6MHQB.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6312-the-crow.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">THE CROW</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Crime, Drama</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series WONKA" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/e2M8bo6ph4QxRCmcpH3DfOc1tQol8KisHHzTeBQs6jCBdmDoA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/4888-wonka.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">WONKA</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Comedy, Drama</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series SHATAAN" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/zfS4Xb7d4vSpPSJNfP3fBfe6devqDlKS2ozCuU9AEpjalzcAF.jpg" width="200"/>
+                <a href="https://allmovieland.fun/5414-shaitaan.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">SHATAAN</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Documentary</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series SPIDERMAN INTO SPIDER VERSE" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/zxeaafeM7vAL8okNM8ZgOLb5C5UANMdQF22LLTDPX75OdmDoA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/785-spider-man-into-the-spider-verse-2018-hindi.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">SPIDERMAN INTO SPIDER VERSE</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Animation, Family</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series SPIDERMAN ACROSS THE SPIDERVERSE" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/nKtMM6fnac0zOqlsli3OcMsuLP0bBWxIjUJI08h8MHhAn5AKA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/3541-spider-man-across-the-spider-verse.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">SPIDERMAN ACROSS THE SPIDERVERSE</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Animation, Family</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series BOSS BABY FAMILY BUSINESS" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/f9YrmyZLwfhffTslKOSdGPnnDRnRIASoqIducxPHiOU24MHQB.jpg" width="200"/>
+                <a href="https://allmovieland.fun/1443-the-boss-baby-family-business-2021-hindi.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">BOSS BABY FAMILY BUSINESS</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Animation, Family</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series LIGHTYEAR" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/Cv9s956r546NBdijshjhMNvt4Tffsd78b7DIaCFsHm1lOzBUA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/53-lightyear-2022-hindi.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">LIGHTYEAR</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Animation, Family</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series DRAGON BALL SUPER HERO" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/ITf3m05YnEVVc6hCq6GukrcujuUfPQuG7fbc34c6TQigdmDoA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/136-dragon-ball-super-super-hero-2022-hindi.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">DRAGON BALL SUPER HERO</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Animation, Family</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series MUFASA" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/ZkykeJUURwTYCKvPnj7fi9CuWGwY2eqVP5biNCzAZuc5cmDoA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6905-mufasa-the-lion-king.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">MUFASA</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Animation, Family</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series POKEMON MECHANICAL MARVEL" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/uLLFLGbXA4YaCdH7XCsfkq3aYen7PE3WcfbadXsOndtHcmDoA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/1032-pokemon-the-movie-volcanion-and-the-mechanical-marvel-2016-hindi.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">POKEMON MECHANICAL MARVEL</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Animation, Family</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series KUNG FU PANDA 4" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/ZAFFhDTz4y4aLZycDRptamODjG0hyju75kzb8fSNRBaDn5AKA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/5413-kung-fu-panda-4.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">KUNG FU PANDA 4</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Animation, Family</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series BATTLE OF SUPER SONE" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/WjljNpTuO4r2HBEsW50yOEJpfwSLpBf8Bn4reG2751sodnDoA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/1146-batman-and-superman-battle-of-the-super-sons-2022-hindi.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">BATTLE OF SUPER SONS</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Nature, Documentary</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series THE BOYS" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/t6ZtH1qdevS7f0WNUz61OczSdCT1zIZmBDa33FzIXd59uzBUA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6183-the-boys.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">THE BOYS</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Survival, Adventure</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series BHAIYA G" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/bd65P3Za4EqmMh71YF5Gma3F282Ja3CtcbrzNjLTWzrt7cAF.jpg" width="200"/>
+                <a href="https://allmovieland.fun/5832-bhaiyya-ji.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">BHAIYA G</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Paranormal, Thriller</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series BAD NEWS" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/nVJVY8ZVcUZuPZrKcIWkHmCk7iVxe6iThe4WQMD5H1F8uzBUA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6915-sonic-the-hedgehog-3.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">SONIC 3</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Family, Drama</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series MOANA 2" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/HReBFi5VYh2tAqTtRxbAA4R13jWlNm7UfzNVv5V5GE34uzBUA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6816-moana-2.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">MOANA 2</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Teen, Drama</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series GHOST GAME" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/V7AgozRgrUrxElWrtemHJmZcENqwBGyHTDPYglpfrDE6uzBUA.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6805-ghost-game.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">GHOST GAME</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Mystery, Drama</p>
+            </div>
+            <div class="bg-gray-800 p-2 rounded-lg hover-effect transition-transform duration-300">
+                <img alt="Poster of the web series JOKER" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/Xo7rlTEL0cahB5vzNzcppMrRCS34nWgdWngLJEvh8krs7cAF.jpg" width="200"/>
+                <a href="https://allmovieland.fun/6547-joker-folie-a-deux.html" target="_blank">
+                    <h2 class="mt-2 text-lg font-bold text-red-600">JOKER</h2>
+                </a>                
+                <p class="text-sm text-gray-400">Crime, Thriller</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
